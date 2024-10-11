@@ -1,0 +1,80 @@
+.bg-img {
+    /* The image used */
+    background-image: url("zzodiac.jpg");
+  
+    min-height: 1080px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+  }
+  
+  h1{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 20px;
+      font-family: "Lucida Console", "Courier New", monospace;
+      position: absolute;
+      top: 15%;
+      left: 70%;
+      transform: translateY(-50%);
+  }
+  h4{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 75px;
+      position: absolute;
+      top: 20%;
+      left: 70%;
+      transform: translateY(-50%);
+  }
+  p{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 80px;
+      position: absolute;
+      top: 29%;
+      left: 63%;
+      transform: translateY(-50%);
+      line-height: 80px;
+      border: 2px solid #000; /* Set border width and color */
+      background-color: black; /* Set background color */
+      padding: 10px; /* Optional: Add padding for better visual appearance */
+      border-radius: 30px;
+      
+      
+      font-weight: bold;
+  }
+  
+  
+  h3{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 20px;
+      font-family: "Lucida Console", "Courier New", monospace;
+      position: absolute;
+      top: 40%;
+      left: 55%;
+      transform: translateY(-50%);
+  }
+  
+  span{
+      color: red;
+  }
+  span1{
+      color: orange;
+  }
+
+  
