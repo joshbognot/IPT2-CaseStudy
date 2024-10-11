@@ -1,0 +1,311 @@
+.bg-img {
+    /* The image used */
+    background-image: url("zzodiac.jpg");
+  
+    min-height: 1080px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  * {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      box-sizing: border-box;
+  }
+  
+  h1{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 20px;
+      font-family: "Lucida Console", "Courier New", monospace;
+      position: absolute;
+      top: 15%;
+      left: 70%;
+      transform: translateY(-50%);
+  }
+  h4{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 75px;
+      position: absolute;
+      top: 20%;
+      left: 70%;
+      transform: translateY(-50%);
+  }
+  p{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 80px;
+      position: absolute;
+      top: 29%;
+      left: 63%;
+      transform: translateY(-50%);
+      line-height: 80px;
+      border: 2px solid #000; /* Set border width and color */
+      background-color: black; /* Set background color */
+      padding: 10px; /* Optional: Add padding for better visual appearance */
+      border-radius: 30px;
+      
+      
+      font-weight: bold;
+  }
+  
+  
+  h3{
+      color: white;
+      margin: 20px 0px 20px;
+      font-size: 20px;
+      font-family: "Lucida Console", "Courier New", monospace;
+      position: absolute;
+      top: 40%;
+      left: 55%;
+      transform: translateY(-50%);
+  }
+  
+  span{
+      color: red;
+  }
+  span1{
+      color: orange;
+  }
+
+  body{
+	font-family: montserrat;
+}
+nav{
+	background:#000000;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: red;
+	transition: .5s;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	
+}
+
+	
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: red;
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+		.marquee{
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+            border: 1px solid rgba(0, 0, 0, .15);
+            background-color: #ffffff;
+            border-radius: 4px;
+            padding: 10px;
+            margin: auto;
+}
+
+.btn{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	top: 45%;
+	left: 75%;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.roundedImage {
+    background: url(Ian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+    width:300px;
+    height:300px;
+	position: absolute;
+	top: 18%;
+	left: 44%;
+}
+.btn1{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	top: 70%;
+	left: 43%;
+}
+.btn2{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 16px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	top: 70%;
+	left: 55%;
+}
+
+h5{
+	color: Blue;
+	margin: 20px 0px 20px;
+	font-size: 80px;
+	position: absolute;
+	top: 50%;
+	left: 46%;
+	transform: translateY(-50%);
+	line-height: 80px;
+	font-weight: bold;
+}
+h6{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	transform: translateY(-50%);
+}
+h7{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 25px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	position: absolute;
+	top: 35%;
+	left: 33%;
+	transform: translateY(-50%);
+}
+.video-player {
+     position: absolute;
+	top: 55%;
+	left: 60%;
+}
+.roundedImage1 {
+    background: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 73%;
+	left: 72%;
+}
+.roundedImage2 {
+    background: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 73%;
+	left: 36%;
+}
+.roundedImage3 {
+    background: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 73%;
+	left: 1%;
+}
+.roundedImage4 {
+    background: url(image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 43%;
+	left: 1%;
+}
+.roundedImage4 {
+    background: url(image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:560px;
+	position: absolute;
+	top: 13%;
+	left: 1%;
+}
