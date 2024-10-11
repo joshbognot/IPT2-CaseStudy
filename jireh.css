@@ -86,3 +86,28 @@ main {
     object-fit: cover;
 }
 
+.about-me h2{
+    font-family: "Bebas";
+    font-size: 200px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    padding-top: 900px;
+    position: relative;
+}
+
+.me {
+    position: absolute;
+    height: 500px;
+    top: 1313px;
+    left: 550px;
+    float: right;
+}
+
+.about-me p {
+    text-align: center;
+    font-size: small;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: relative;
+    justify-content: center;
+}
