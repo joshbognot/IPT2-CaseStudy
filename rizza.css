@@ -106,3 +106,17 @@ body {
 .project:hover img {
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    .project h3 {
+        font-size: 1.5rem;
+    }
+
+    .project p {
+        font-size: 0.95rem;
+    }
+}
