@@ -77,4 +77,123 @@
       color: orange;
   }
 
-  
+  body{
+	font-family: montserrat;
+}
+nav{
+	background:#000000;
+	height: 80px;
+	width: 100%;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: red;
+	transition: .5s;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	
+}
+
+	
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: red;
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+		.marquee{
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+            border: 1px solid rgba(0, 0, 0, .15);
+            background-color: #ffffff;
+            border-radius: 4px;
+            padding: 10px;
+            margin: auto;
+}
+
+.btn{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	top: 45%;
+	left: 75%;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.roundedImage {
+    background: url(Ian.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+    width:300px;
+    height:300px;
+	position: absolute;
+	top: 18%;
+	left: 44%;
+}
+.btn1{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 15px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	top: 70%;
+	left: 43%;
+}
+.btn2{
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 16px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+	position: absolute;
+	top: 70%;
+	left: 55%;
+}
