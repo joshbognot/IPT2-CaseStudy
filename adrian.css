@@ -197,3 +197,115 @@ a.active,a:hover{
 	top: 70%;
 	left: 55%;
 }
+
+h5{
+	color: Blue;
+	margin: 20px 0px 20px;
+	font-size: 80px;
+	position: absolute;
+	top: 50%;
+	left: 46%;
+	transform: translateY(-50%);
+	line-height: 80px;
+	font-weight: bold;
+}
+h6{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 20px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	transform: translateY(-50%);
+}
+h7{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 25px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	position: absolute;
+	top: 35%;
+	left: 33%;
+	transform: translateY(-50%);
+}
+.video-player {
+     position: absolute;
+	top: 55%;
+	left: 60%;
+}
+.roundedImage1 {
+    background: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 73%;
+	left: 72%;
+}
+.roundedImage2 {
+    background: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 73%;
+	left: 36%;
+}
+.roundedImage3 {
+    background: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 73%;
+	left: 1%;
+}
+.roundedImage4 {
+    background: url(image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:280px;
+	position: absolute;
+	top: 43%;
+	left: 1%;
+}
+.roundedImage4 {
+    background: url(image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow:hidden;
+    -webkit-border-radius:150;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:500px;
+    height:560px;
+	position: absolute;
+	top: 13%;
+	left: 1%;
+}
